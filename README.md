@@ -139,5 +139,5 @@ Refactoring makes code cleaner, organized and repeatable. Advantages of a clean 
 ## The Advantages of Refactoring Stock Analysis
 The pro advantages that occurred as a result of the refactoring was a decrease in run time in the application. The original analysis took approximately one second to run, whereas our new analysis only took about a four of the time (approximately 0.15 seconds) to run. 
 
-
+https://docs.google.com/document/d/1URXqX77QX-Xvo8aeNxIKRnYFOVUtOdhfeUCZt1OnbFU/edit#heading=h.jpfufil0dcg0
 
