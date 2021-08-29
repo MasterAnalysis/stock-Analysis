@@ -142,4 +142,4 @@ The pro advantages that occurred as a result of the refactoring was a decrease i
 ![Image of 2017 Analysis](https://github.com/MasterAnalysis/stock-Analysis/blob/main/VBA_Challenge_2017.png)
 
 
-![Image of 2018 Analysis](https://drive.google.com/file/d/12f-NCFBcrjRT3z-hDtKOUrgPVPJ41h6p/view?usp=sharing)
+![Image of 2018 Analysis](https://github.com/MasterAnalysis/stock-Analysis/blob/main/VBA_Challenge_2018.png)
