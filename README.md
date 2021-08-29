@@ -1,6 +1,6 @@
 Stock Analysis With Excel VBA ( Visual Basic For Applications )
 
-##Overview of Project
+## Overview of Project
 
 ## Purpose
 The purpose of this project is to help Steve work out his data for stocks through 2017 & 2018. The workbook I prepared for him at the click of a button, he can analyze an entire dataset. Now doing a little more research, he wants to expand the dataset to include the entire stock market over the last few years. Although the  code works well for a dozen stocks, the challenge was to get it to work for  thousands of stocks
