@@ -58,7 +58,8 @@ Sub AllStocksAnalysisRefactored()
     Dim tickerStartingPrices(12) As Single
     Dim tickerEndingPrices(12) As Single
     
-''2a) Create a for loop to initialize the tickerVolumes to zero.
+'2a) Create a for loop to initialize the tickerVolumes to zero.'
+
    For i = 0 To 11
     tickerVolumes(i) = 0
     tickerStartingPrices(i) = 0
@@ -90,13 +91,13 @@ Next i
         
      End If
      
-            '3d Increase the tickerIndex.
+            '3d Increase the tickerIndex.'
            If Cells(i, 1).Value = tickers(tickerIndex) And Cells(i + 1, 1).Value <> tickers(tickerIndex) Then
             tickerIndex = tickerIndex + 1
         End If
 
 Next i
-    '4) Loop through your arrays to output the Ticker, Total Daily Volume, and Return.
+    '4) Loop through your arrays to output the Ticker, Total Daily Volume, and Return.'
     For i = 0 To 11
     
     Worksheets("All Stocks Analysis").Activate
@@ -135,7 +136,7 @@ Next i
     MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
 
 End Sub
-##Summary
+## Summary
 ## Pros and Cons of Refactoring Code
 Refactoring makes code cleaner, organized and repeatable. Advantages of a clean code include design and software flow, less errors, and faster runtime. it becomes easier to read, as it is more compressed and straight to the point. Disadvantages are sometimes having the option to refine our code due to disadvantages such as apps being too large causing runtime error. 
 ## The Advantages of Refactoring Stock Analysis
