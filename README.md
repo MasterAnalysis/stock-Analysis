@@ -136,10 +136,15 @@ Next i
     MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
 
 End Sub
+
 ## Summary
+
 ## Pros and Cons of Refactoring Code
+
 Refactoring makes code cleaner, organized and repeatable. Advantages of a clean code include design and software flow, less errors, and faster runtime. it becomes easier to read, as it is more compressed and straight to the point. Disadvantages are sometimes having the option to refine our code due to disadvantages such as apps being too large causing runtime error. 
+
 ## The Advantages of Refactoring Stock Analysis
+
 The pro advantages that occurred as a result of the refactoring was a decrease in run time in the application. The original analysis took approximately one second to run, whereas our new analysis only took about a four of the time (approximately 0.15 seconds) to run. 
 
 ![Image of 2017 Analysis](https://github.com/MasterAnalysis/stock-Analysis/blob/main/VBA_Challenge_2017.png)
