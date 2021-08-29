@@ -62,9 +62,9 @@ Sub AllStocksAnalysisRefactored()
     Dim tickerStartingPrices(12) As Single
     Dim tickerEndingPrices(12) As Single
     
-'2a) Create a for loop to initialize the tickerVolumes to zero.'
+     '2a) Create a for loop to initialize the tickerVolumes to zero.'
 
-   For i = 0 To 11
+    For i = 0 To 11
     tickerVolumes(i) = 0
     tickerStartingPrices(i) = 0
     tickerEndingPrices(i) = 0
@@ -139,7 +139,7 @@ Sub AllStocksAnalysisRefactored()
     endTime = Timer
     MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
 
-End Sub
+    End Sub
 
 ## Summary
 
