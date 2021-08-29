@@ -6,7 +6,11 @@ Stock Analysis With Excel VBA ( Visual Basic For Applications )
 The purpose of this project is to help Steve work out his data for stocks through 2017 & 2018. The workbook I prepared for him at the click of a button, he can analyze an entire dataset. Now doing a little more research, he wants to expand the dataset to include the entire stock market over the last few years. Although the  code works well for a dozen stocks, the challenge was to get it to work for  thousands of stocks
 ## The Data
 The data that is presented includes two charts with stock information on 12 different stocks. The stock information contains a ticker value, the date the stock was issued, the opening, closing and adjusted closing price, the highest and lowest price, and the volume of the stock. The goal is to retrieve the ticker, the total daily volume, and the return on each stock.
+
+
 ## Results
+
+
 ## Analysis
 When  refactoring the code, I sample code that was available  by copying the code that was needed to create the loops, variables, ticker array to worksheet. The steps were laid out in order to set the structure for the refactoring. Below are the instructions and socure code as written in the file.
 Sub AllStocksAnalysisRefactored()
@@ -64,7 +68,7 @@ Sub AllStocksAnalysisRefactored()
     tickerVolumes(i) = 0
     tickerStartingPrices(i) = 0
     tickerEndingPrices(i) = 0
-Next i
+     Next i
 
         
     ''2b) Loop over all the rows in the spreadsheet.
@@ -95,8 +99,8 @@ Next i
            If Cells(i, 1).Value = tickers(tickerIndex) And Cells(i + 1, 1).Value <> tickers(tickerIndex) Then
             tickerIndex = tickerIndex + 1
         End If
-
-Next i
+     Next i
+     
     '4) Loop through your arrays to output the Ticker, Total Daily Volume, and Return.'
     For i = 0 To 11
     
@@ -105,7 +109,7 @@ Next i
     Cells(4 + i, 2).Value = tickerVolumes(i)
     Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
     
-Next i
+     Next i
     
     'Formatting
     Worksheets("All Stocks Analysis").Activate
